@@ -1,0 +1,279 @@
+{
+  "basics": {
+    "name": "Samyak Mukherjee",
+    "label": "Technical Writer",
+    "email": "samyak.mukherjee@gmail.com",
+    "phone": "+91-9432681196",
+    "location": {
+      "city": "Hyderabad",
+      "countryCode": "IN",
+      "region": "Telangana"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Samyak Mukherjee"
+      }
+    ]
+  },
+  "summary": "Comprehensive experience in writing clear, concise, and grammatically correct technical content. Certified writer of product documents (End User), technical documents, and process documents. Expert in working with Subject Matter Experts (SME) to gather information and analyze audiences. Proficient in Single Sourcing, Context Sensitive Help, Structure Documentation, Topic Based Authoring, XML, and DITA. Working on Generative Artificial Intelligence (Gen AI) projects. Experienced as onsite coordinator in Kingston, Canada. Consistently recognized as a keen observer and leader.",
+  "work": [
+    {
+      "name": "Experian",
+      "position": "Technical Writer",
+      "startDate": "2023-08",
+      "endDate": "",
+      "summary": "Prepare Online Help, release notes and technical documents for Experian Analytics, Fraud and ID products.",
+      "highlights": [
+        "Developed online help and release notes for multiple products using MadCap Flare, supporting Experian Analytics, Fraud, and ID product lines",
+        "Designed and maintained writing templates for documentation teams, standardizing content creation across multiple scrum teams",
+        "Contributed to Gen AI validation project, leveraging technical documentation as training data to ensure model accuracy and reliability",
+        "Managed documentation release cycles following DDLC methods, coordinating with multiple scrum teams in agile environment"
+      ]
+    },
+    {
+      "name": "Oracle",
+      "position": "Technical Writer",
+      "startDate": "2022-04",
+      "endDate": "2023-08",
+      "summary": "Prepare Online Help and on-premise documentation for Oracle Transportation Management system.",
+      "highlights": [
+        "Prepared online help and on-premise documentation for Oracle Transportation Management using RoboHelp, following Microsoft Style Guide",
+        "Created multiple guides including administration and integration guides using DITA in Oxygen Author",
+        "Completed PSM1 training from scrum.org and contributed to agile ceremonies and sprint planning with scrum teams",
+        "Managed documentation releases following DDLC methods, coordinating with scrum and documentation team members"
+      ]
+    },
+    {
+      "name": "NCR",
+      "position": "Information Engineer",
+      "startDate": "2018-09",
+      "endDate": "2022-03",
+      "summary": "Prepare various documents for Financial Domain (Software for ATMs). SPOC for Scrum and Support team.",
+      "highlights": [
+        "Prepared documents for financial domain software serving ATM systems, managing documentation across multiple product lines",
+        "Served as SPOC for scrum and support teams, planning documentation tasks based on Jira board and sprint planning",
+        "Published books after each Program Increment (PI) using FrameMaker, maintaining document repository in Confluence with version control",
+        "Performed quality checks through technical and editorial reviews, managing support documentation issues through Kanban Board"
+      ]
+    },
+    {
+      "name": "ValueMomentum",
+      "position": "Technical Writer",
+      "startDate": "2017-06",
+      "endDate": "2018-09",
+      "summary": "Prepare documents for Insurance Domain (Insurance Rating System).",
+      "highlights": [
+        "Prepared documents for Insurance Rating System domain, creating user guides, release notes, and technical documentation following Microsoft Manual of Style",
+        "Created help videos using Camtasia and maintained document repository in SharePoint with appropriate version control in release folders",
+        "Participated in scrum meetings and planning, analyzing documentation requirements from Business Analysts, Developers, and Testers",
+        "Organized functional reviews with product teams, actively participating in quality checks through peer reviews"
+      ]
+    },
+    {
+      "name": "Cyient",
+      "position": "Design Engineer",
+      "startDate": "2015-03",
+      "endDate": "2017-05",
+      "summary": "Prepare various documents for Bombardier Transport (Metro Rail Project, Kulalampur, Riyadh, Pittsburgh, Australia and Italy).",
+      "highlights": [
+        "Downloaded and analyzed inputs from Product Data Management, studying Final Design Reviews, engineering drawings, and supplier documents for Bombardier Transport projects",
+        "Created illustration mark-ups and analyzed 3D product models in Catia V5, working on Metro Rail projects across multiple international locations",
+        "Created training PPT and conducted internal training sessions for multiple train systems including Train Carbody, Equipment, Furnishing, HVAC, and Door systems",
+        "Created operator and troubleshooting guides for Train Control and Management System (TCMS) and Driver Control Panel (DCP)"
+      ]
+    },
+    {
+      "name": "Bombardier",
+      "position": "Onsite Co-Ordinator",
+      "startDate": "2016-10",
+      "endDate": "2016-11",
+      "location": "Kingston, Ontario, Canada",
+      "summary": "Onsite coordinator working with engineers in test depot to understand train system and structure.",
+      "highlights": [
+        "Visited Bombardier Production and Test Site in Kingston, Ontario, Canada to collaborate with engineers and understand train system structure",
+        "Validated prepared manuals in live train test depot, ensuring accuracy and completeness of technical documentation",
+        "Worked with onsite technical publication team to gather information and discuss improvements to documentation quality",
+        "Clarified offshore team doubts by liaising with onsite engineers, bridging communication between teams"
+      ]
+    },
+    {
+      "name": "Capgemini",
+      "position": "Consultant",
+      "startDate": "2012-01",
+      "endDate": "2015-02",
+      "summary": "Download inputs or Change drivers from Metaweb and analyze engineering drawings for aircraft documentation.",
+      "highlights": [
+        "Downloaded and analyzed change drivers from Metaweb including modification summaries, service bulletins, and engineering orders for aircraft documentation",
+        "Analyzed multiple engineering drawing types including detailed views, cross-sectional views, and BOM analysis for Bombardier Aircraft models",
+        "Documented technical content for various Bombardier Aircraft models (CL-215, CL-415 variants), creating illustrated parts catalogues and maintenance manuals following Simplified Technical English",
+        "Member of Event Management Team, conducted several in-house events while performing quality checks and publishing responsibilities"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Singhania University",
+      "studyType": "Bachelor of Science",
+      "area": "Aerospace Maintenance Engineering (AME)",
+      "endDate": "2013"
+    },
+    {
+      "institution": "IIAS, Kolkata",
+      "studyType": "AME Course",
+      "area": "Aerospace Maintenance Engineering",
+      "endDate": "2010"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Authoring & Illustration Tools",
+      "level": "Expert",
+      "keywords": [
+        "MS Word",
+        "FrameMaker",
+        "MadCap Flare",
+        "RoboHelp",
+        "Affinity Designer",
+        "PPT/PowerPoint Presentation",
+        "PDF/Adobe Professional"
+      ]
+    },
+    {
+      "name": "Version Control",
+      "level": "Intermediate",
+      "keywords": [
+        "Git Hub",
+        "BitBucket"
+      ]
+    },
+    {
+      "name": "Markup Languages",
+      "level": "Intermediate",
+      "keywords": [
+        "XML",
+        "HTML",
+        "DITA"
+      ]
+    },
+    {
+      "name": "Style Guides",
+      "level": "Expert",
+      "keywords": [
+        "ASD-STE 80",
+        "MSG 70",
+        "Microsoft Manual of Style"
+      ]
+    },
+    {
+      "name": "Technical Writing Standards",
+      "level": "Intermediate",
+      "keywords": [
+        "iSpec2200",
+        "ATA100",
+        "S1000D",
+        "Simplified Technical English (STE)"
+      ]
+    },
+    {
+      "name": "Image Capturing & Editing",
+      "level": "Intermediate",
+      "keywords": [
+        "Snag-IT",
+        "Jing",
+        "Snipping Tool",
+        "MS Visio",
+        "Paint",
+        "Camtasia"
+      ]
+    },
+    {
+      "name": "Process & Methodologies",
+      "level": "Expert",
+      "keywords": [
+        "Document Development Life Cycle (DDLC)",
+        "Software Development Life Cycle (SDLC)",
+        "AGILE & SCRUM",
+        "SAFe Framework"
+      ]
+    },
+    {
+      "name": "Technical Tools",
+      "level": "Intermediate",
+      "keywords": [
+        "Catia V5",
+        "Virtual Product Model (VPM)",
+        "ServiceNow",
+        "Coveo",
+        "Oxygen Author",
+        "Confluence",
+        "SharePoint",
+        "Jira",
+        "Team Foundation Server (TFS)"
+      ]
+    },
+    {
+      "name": "Languages",
+      "level": "Professional",
+      "keywords": [
+        "English (Reading, Writing, Speaking)",
+        "Hindi (Reading, Writing, Speaking)",
+        "Bengali (Reading, Writing, Speaking)"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "PSM I (Professional Scrum Master I)",
+      "issuer": "scrum.org"
+    },
+    {
+      "name": "DGCA License Papers I & II",
+      "issuer": "Directorate General of Civil Aviation (DGCA)"
+    },
+    {
+      "name": "Technical Writing Training",
+      "issuer": "TechTotal"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Master Blaster Award",
+      "date": "2014-Q2",
+      "awarder": "Capgemini"
+    },
+    {
+      "title": "Team Award",
+      "date": "2013-Q3",
+      "awarder": "Capgemini"
+    },
+    {
+      "title": "SOARING EAGLE",
+      "awarder": "Capgemini"
+    },
+    {
+      "title": "Production and Quality Award (PQA)",
+      "date": "2013-Q2",
+      "awarder": "Capgemini"
+    },
+    {
+      "title": "ACHIVER'S Award",
+      "date": "2012-Q4",
+      "awarder": "Capgemini"
+    },
+    {
+      "title": "Team of the Month",
+      "date": "2017-Q1",
+      "awarder": "Cyient"
+    },
+    {
+      "title": "Team of the Month",
+      "date": "2016-Q2",
+      "awarder": "Cyient"
+    },
+    {
+      "title": "Pat on Back",
+      "awarder": "Cyient"
+    }
+  ]
+}
