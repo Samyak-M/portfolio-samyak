@@ -247,6 +247,171 @@ h3 { margin: 0 0 .25rem; font-size: 1.12rem; }
 .btn:hover { opacity: .88; transform: translateY(-1px); }
 .btn:active { transform: translateY(0); }
 
+/* ── Section intro text ──────────────────────────────────── */
+.section-intro {
+  color: var(--muted);
+  margin: -.5rem 0 1.25rem;
+  font-size: .95rem;
+}
+
+/* ── Projects grid ───────────────────────────────────────── */
+.project-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.project-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.1rem 1.25rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .05);
+  transition: transform .22s ease, box-shadow .22s ease;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, .1);
+}
+.project-card.featured {
+  border-color: var(--accent);
+  border-width: 2px;
+}
+
+.project-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .6rem;
+  flex-wrap: wrap;
+}
+.project-card-top h3 { margin: 0; }
+
+.badge-featured {
+  background: var(--tag-bg);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: .2rem .65rem;
+  font-size: .78rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.project-desc {
+  margin: 0;
+  color: var(--muted);
+  font-size: .95rem;
+}
+
+.project-tags { margin-top: .25rem; }
+
+/* ── Subprojects ─────────────────────────────────────────── */
+.subprojects {
+  margin-top: .5rem;
+  border-top: 1px dashed var(--border);
+  padding-top: .85rem;
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+}
+.subprojects h4 {
+  margin: 0 0 .4rem;
+  font-size: .88rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: var(--muted);
+}
+
+.subproject-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .8rem;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: .7rem .85rem;
+  transition: background .15s ease;
+}
+.subproject-item:hover { background: var(--tag-bg); }
+.subproject-item.placeholder { opacity: .75; }
+
+.subproject-text h5 { margin: 0 0 .15rem; font-size: .97rem; }
+.subproject-text p  { margin: 0; color: var(--muted); font-size: .88rem; }
+
+.project-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--accent);
+  font-size: .9rem;
+  white-space: nowrap;
+  padding: .3rem .7rem;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  transition: background .15s ease, color .15s ease;
+}
+.project-link:hover {
+  background: var(--accent);
+  color: #fff;
+}
+.project-link:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.placeholder-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 160px;
+  text-align: center;
+  color: var(--muted);
+  background: var(--bg-alt);
+  border-style: dashed;
+}
+.placeholder-card h3 { color: var(--muted); margin: 0 0 .3rem; }
+.placeholder-card p  { margin: 0; font-size: .95rem; }
+
+/* ── Blog grid ───────────────────────────────────────────── */
+.blog-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.blog-card {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.1rem 1.25rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .04);
+  transition: transform .22s ease, box-shadow .22s ease;
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+}
+.blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, .09);
+}
+.blog-card h3 { margin: 0; font-size: 1rem; }
+.blog-card p  { margin: 0; color: var(--muted); font-size: .9rem; flex: 1; }
+.blog-meta {
+  display: inline-block;
+  margin-top: .25rem;
+  font-size: .82rem;
+  background: var(--tag-bg);
+  color: var(--tag-ink);
+  border-radius: 999px;
+  padding: .15rem .55rem;
+  align-self: flex-start;
+}
+
 /* ── Footer ──────────────────────────────────────────────── */
 #site-footer {
   text-align: center;

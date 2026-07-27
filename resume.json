@@ -251,16 +251,40 @@
   ],
   "projects": [
     {
-      "name": "AI Documentation Workflow POC",
-      "description": "Designed and executed a practical proof of concept for AI-assisted technical documentation operations, including API doc completeness checks, style validation, release-note drafting, and documentation coverage analysis using reusable prompt skills and MCP-oriented workflow patterns.",
+      "name": "Document Intelligence Platform",
+      "description": "Pipeline-focused initiative for document conversion workflows and terminology transformation, combining AI-assisted authoring with automated output generation.",
+      "featured": true,
+      "subprojects": [
+        {
+          "name": "Doc Converter & Rebranding",
+          "description": "PoC walkthrough with simulated pipeline execution and generated outputs.",
+          "url": "https://samyak-m.github.io/doc-intel-platform/"
+        },
+        {
+          "name": "Coming soon",
+          "description": "More modules and use cases will be added here.",
+          "placeholder": true
+        }
+      ],
       "keywords": [
-        "Technical Writing",
         "AI",
+        "Document Conversion",
         "MCP",
         "Prompt Engineering",
-        "Release Notes",
-        "Documentation QA"
+        "Automation"
       ]
+    }
+  ],
+  "blog": [
+    {
+      "title": "Article coming soon",
+      "summary": "Short summary of a future article will appear here.",
+      "placeholder": true
+    },
+    {
+      "title": "Write-up placeholder",
+      "summary": "Architecture explainers, PoC learnings, and coding journals — coming soon.",
+      "placeholder": true
     }
   ],
   "certificates": [
