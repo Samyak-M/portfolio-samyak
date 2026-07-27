@@ -99,13 +99,13 @@
     document.title = `${basics.name}${basics.label ? ' — ' + basics.label : ''}`;
   }
 
-  // ---------- Summary ----------
+  // ---------- About Me ----------
   if (resume.summary) {
-    $('summary-text').textContent = resume.summary;
-    show($('summary'));
+    $('about-text').textContent = resume.summary;
+    show($('about'));
   } else if (basics.summary) {
-    $('summary-text').textContent = basics.summary;
-    show($('summary'));
+    $('about-text').textContent = basics.summary;
+    show($('about'));
   }
 
   // ---------- Work ----------
@@ -214,5 +214,62 @@
   // ---------- Footer ----------
   if (basics.name) {
     $('footer-text').textContent = `© ${new Date().getFullYear()} ${basics.name}`;
+  }
+
+  // ---------- Nav: hide links for empty sections ----------
+  document.querySelectorAll('#site-nav .nav-link').forEach((link) => {
+    const targetId = link.getAttribute('href').slice(1);
+    const target = document.getElementById(targetId);
+    if (target && target.hidden) {
+      link.closest('li').hidden = true;
+    }
+  });
+
+  // ---------- Active section highlight (IntersectionObserver) ----------
+  const sections = Array.from(document.querySelectorAll('main section[id]:not([hidden])'));
+  const navLinks = Array.from(document.querySelectorAll('#site-nav .nav-link'));
+
+  function setActive(id) {
+    navLinks.forEach((link) => {
+      const isCurrent = link.getAttribute('href') === '#' + id;
+      link.setAttribute('aria-current', isCurrent ? 'true' : 'false');
+    });
+  }
+
+  if (sections.length && navLinks.length && 'IntersectionObserver' in window) {
+    // Set first visible section as initially active
+    if (sections[0]) setActive(sections[0].id);
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        // Find the topmost intersecting section
+        const visible = entries
+          .filter((e) => e.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        if (visible.length) setActive(visible[0].target.id);
+      },
+      { rootMargin: '-10% 0px -55% 0px', threshold: 0 }
+    );
+
+    sections.forEach((s) => observer.observe(s));
+  }
+
+  // ---------- Mobile nav toggle ----------
+  const navToggle = $('nav-toggle');
+  const navList = $('nav-list');
+
+  if (navToggle && navList) {
+    navToggle.addEventListener('click', () => {
+      const isOpen = navList.classList.toggle('is-open');
+      navToggle.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    // Close nav when a section link is tapped
+    navList.addEventListener('click', (e) => {
+      if (e.target.matches('.nav-link')) {
+        navList.classList.remove('is-open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      }
+    });
   }
 })();

@@ -4,7 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Samyak Mukherjee — Technical Writer</title>
-  <meta name="description" content="Portfolio of Samyak Mukherjee, Technical Writer." />
+  <meta name="description" content="Portfolio of Samyak Mukherjee, an experienced Technical Writer specialising in product documentation, AI-powered documentation workflows, and release communication." />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Samyak Mukherjee — Technical Writer" />
+  <meta property="og:description" content="Experienced Technical Writer with expertise in product documentation, AI-enabled documentation operations, and release communication." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -14,48 +18,73 @@
     <div id="hero-content"></div>
   </header>
 
-  <main id="main">
-    <section id="summary" hidden>
-      <h2>Summary</h2>
-      <p id="summary-text"></p>
-    </section>
+  <div class="page-layout">
+    <nav id="site-nav" aria-label="Page sections">
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        aria-expanded="false"
+        aria-controls="nav-list"
+        aria-label="Toggle navigation menu"
+      >
+        <span class="hamburger-icon" aria-hidden="true">&#9776;</span>
+        <span class="close-icon" aria-hidden="true">&#10005;</span>
+      </button>
+      <ul id="nav-list" class="nav-list" role="list">
+        <li><a href="#about"        class="nav-link">About Me</a></li>
+        <li><a href="#experience"   class="nav-link">Experience</a></li>
+        <li><a href="#education"    class="nav-link">Education</a></li>
+        <li><a href="#skills"       class="nav-link">Skills</a></li>
+        <li><a href="#projects"     class="nav-link">Projects</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#awards"       class="nav-link">Awards</a></li>
+        <li><a href="#contact"      class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
 
-    <section id="experience" hidden>
-      <h2>Experience</h2>
-      <div id="work-list"></div>
-    </section>
+    <main id="main">
+      <section id="about" hidden>
+        <h2>About Me</h2>
+        <p id="about-text"></p>
+      </section>
 
-    <section id="education" hidden>
-      <h2>Education</h2>
-      <div id="edu-list"></div>
-    </section>
+      <section id="experience" hidden>
+        <h2>Experience</h2>
+        <div id="work-list"></div>
+      </section>
 
-    <section id="skills" hidden>
-      <h2>Skills</h2>
-      <div id="skill-list"></div>
-    </section>
+      <section id="education" hidden>
+        <h2>Education</h2>
+        <div id="edu-list"></div>
+      </section>
 
-    <section id="projects" hidden>
-      <h2>Projects</h2>
-      <div id="project-list"></div>
-    </section>
+      <section id="skills" hidden>
+        <h2>Skills</h2>
+        <div id="skill-list"></div>
+      </section>
 
-    <section id="certificates" hidden>
-      <h2>Certificates</h2>
-      <ul id="cert-list"></ul>
-    </section>
+      <section id="projects" hidden>
+        <h2>Projects</h2>
+        <div id="project-list"></div>
+      </section>
 
-    <section id="awards" hidden>
-      <h2>Awards</h2>
-      <ul id="award-list"></ul>
-    </section>
+      <section id="certificates" hidden>
+        <h2>Certificates</h2>
+        <ul id="cert-list"></ul>
+      </section>
 
-    <section id="contact" hidden>
-      <h2>Get In Touch</h2>
-      <p id="contact-text"></p>
-      <a id="contact-btn" class="btn" href="#">Email me</a>
-    </section>
-  </main>
+      <section id="awards" hidden>
+        <h2>Awards</h2>
+        <ul id="award-list"></ul>
+      </section>
+
+      <section id="contact" hidden>
+        <h2>Get In Touch</h2>
+        <p id="contact-text"></p>
+        <a id="contact-btn" class="btn" href="#">Email me</a>
+      </section>
+    </main>
+  </div>
 
   <footer id="site-footer">
     <p id="footer-text"></p>
