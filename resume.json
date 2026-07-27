@@ -16,7 +16,7 @@
       }
     ]
   },
-  "summary": "Comprehensive experience in writing clear, concise, and grammatically correct technical content. Certified writer of product documents (End User), technical documents, and process documents. Expert in working with Subject Matter Experts (SME) to gather information and analyze audiences. Proficient in Single Sourcing, Context Sensitive Help, Structure Documentation, Topic Based Authoring, XML, and DITA. Working on Generative Artificial Intelligence (Gen AI) projects. Experienced as onsite coordinator in Kingston, Canada. Consistently recognized as a keen observer and leader.",
+  "summary": "Technical Writer with strong expertise in product documentation, release communication, and AI-enabled documentation operations. I actively use AI-powered documentation workflows in my current organization to improve content quality, consistency, and delivery speed. I apply MCP- and prompt-driven methods for completeness audits, style-governance checks, release notes generation, and documentation coverage analysis as part of day-to-day documentation execution.",
   "work": [
     {
       "name": "Experian",
@@ -28,7 +28,9 @@
         "Developed online help and release notes for multiple products using MadCap Flare, supporting Experian Analytics, Fraud, and ID product lines",
         "Designed and maintained writing templates for documentation teams, standardizing content creation across multiple scrum teams",
         "Contributed to Gen AI validation project, leveraging technical documentation as training data to ensure model accuracy and reliability",
-        "Managed documentation release cycles following DDLC methods, coordinating with multiple scrum teams in agile environment"
+        "Managed documentation release cycles following DDLC methods, coordinating with multiple scrum teams in agile environment",
+        "Operationalized AI-assisted documentation workflows in current projects for API documentation checks, style-rule enforcement, and release communication acceleration",
+        "Applied practical MCP and reusable prompt-skill patterns to improve consistency in documentation reviews and identify coverage gaps before release"
       ]
     },
     {
@@ -106,7 +108,7 @@
       "highlights": [
         "Downloaded and analyzed change drivers from Metaweb including modification summaries, service bulletins, and engineering orders for aircraft documentation",
         "Analyzed multiple engineering drawing types including detailed views, cross-sectional views, and BOM analysis for Bombardier Aircraft models",
-        "Documented technical content for various Bombardier Aircraft models (CL-215, CL-415 variants), creating illustrated parts catalogues and maintenance manuals following Simplified Technical English",
+        "Documented technical content for various Bombardier Aircraft models (CL-215, CL-415 variants), creating illustrated parts catalogues and maintenance manuals following Simplified Technical English principles",
         "Member of Event Management Team, conducted several in-house events while performing quality checks and publishing responsibilities"
       ]
     }
@@ -126,6 +128,19 @@
     }
   ],
   "skills": [
+    {
+      "name": "AI-Powered Documentation Workflows (In Practice)",
+      "level": "Advanced",
+      "keywords": [
+        "MCP-aware documentation workflows",
+        "Prompt engineering for technical documentation",
+        "API documentation completeness auditing",
+        "Style-guide compliance automation",
+        "Release notes generation from change history",
+        "Documentation coverage and gap analysis",
+        "Reusable reviewer/generator/analyzer/transformer prompt skills"
+      ]
+    },
     {
       "name": "Authoring & Illustration Tools",
       "level": "Expert",
@@ -219,6 +234,20 @@
         "English (Reading, Writing, Speaking)",
         "Hindi (Reading, Writing, Speaking)",
         "Bengali (Reading, Writing, Speaking)"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI Documentation Workflow POC",
+      "description": "Designed and executed a practical proof of concept for AI-assisted technical documentation operations, including API doc completeness checks, style validation, release-note drafting, and documentation coverage analysis using reusable prompt skills and MCP-oriented workflow patterns.",
+      "keywords": [
+        "Technical Writing",
+        "AI",
+        "MCP",
+        "Prompt Engineering",
+        "Release Notes",
+        "Documentation QA"
       ]
     }
   ],
