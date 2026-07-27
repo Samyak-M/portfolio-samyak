@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Samyak Mukherjee",
-    "label": "Technical Writer",
+    "label": "AI Content Strategist | API Documentation | RAG, MCP, Agent | Agile | Doc-as-Code | GitHub | Bitbucket | LLMs | GenAI | Prompt Engineering | Aviation | Rail | Software & Hardware Documentation",
     "email": "samyak.mukherjee@gmail.com",
     "phone": "+91-9432681196",
     "location": {
@@ -12,15 +12,16 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "Samyak Mukherjee"
+        "username": "samyak-mukherjee",
+        "url": "https://www.linkedin.com/in/samyak-mukherjee"
       }
     ]
   },
-  "summary": "Technical Writer with strong expertise in product documentation, release communication, and AI-enabled documentation operations. I actively use AI-powered documentation workflows in my current organization to improve content quality, consistency, and delivery speed. I apply MCP- and prompt-driven methods for completeness audits, style-governance checks, release notes generation, and documentation coverage analysis as part of day-to-day documentation execution.",
+  "summary": "Technical Writer with expertise in API documentation, SaaS, and AI-driven content strategies. Skilled in creating clear, concise, and user-focused documentation across software, hardware, aviation, and rail domains. Certified in product, process, and technical documentation. Completed Lean Six Sigma Green Belt Certification through Experian's EmPower programme, with a focus on process improvement, data analysis, and operational efficiency. Experienced in Agile and SAFe frameworks, with hands-on exposure to Doc-as-Code environments. Tools: Jira, Confluence, FrameMaker, MadCap Flare, Bitbucket, GitHub, Oxygen XML Author, MS Visio. Core strengths: API documentation and developer portals, Single-sourcing and topic-based authoring, Structured documentation using XML and DITA, Context-sensitive help and modular content design, AI integration in documentation workflows using LLMs, GenAI, and prompt engineering. Previously served as onsite coordinator in Kingston, Canada, supporting global documentation initiatives and cross-functional teams.",
   "work": [
     {
       "name": "Experian",
-      "position": "Technical Writer",
+      "position": "Senior Technical Author",
       "startDate": "2023-08",
       "endDate": "",
       "summary": "Prepare Online Help, release notes and technical documents for Experian Analytics, Fraud and ID products.",
@@ -35,8 +36,8 @@
     },
     {
       "name": "Oracle",
-      "position": "Technical Writer",
-      "startDate": "2022-04",
+      "position": "Project Leader, Technical Writer",
+      "startDate": "2022-03",
       "endDate": "2023-08",
       "summary": "Prepare Online Help and on-premise documentation for Oracle Transportation Management system.",
       "highlights": [
@@ -48,7 +49,7 @@
     },
     {
       "name": "NCR",
-      "position": "Information Engineer",
+      "position": "Technical Writer",
       "startDate": "2018-09",
       "endDate": "2022-03",
       "summary": "Prepare various documents for Financial Domain (Software for ATMs). SPOC for Scrum and Support team.",
@@ -61,7 +62,7 @@
     },
     {
       "name": "ValueMomentum",
-      "position": "Technical Writer",
+      "position": "Senior Technical Writer",
       "startDate": "2017-06",
       "endDate": "2018-09",
       "summary": "Prepare documents for Insurance Domain (Insurance Rating System).",
@@ -76,7 +77,7 @@
       "name": "Cyient",
       "position": "Design Engineer",
       "startDate": "2015-03",
-      "endDate": "2017-05",
+      "endDate": "2017-06",
       "summary": "Prepare various documents for Bombardier Transport (Metro Rail Project, Kulalampur, Riyadh, Pittsburgh, Australia and Italy).",
       "highlights": [
         "Downloaded and analyzed inputs from Product Data Management, studying Final Design Reviews, engineering drawings, and supplier documents for Bombardier Transport projects",
@@ -103,7 +104,7 @@
       "name": "Capgemini",
       "position": "Consultant",
       "startDate": "2012-01",
-      "endDate": "2015-02",
+      "endDate": "2015-03",
       "summary": "Download inputs or Change drivers from Metaweb and analyze engineering drawings for aircraft documentation.",
       "highlights": [
         "Downloaded and analyzed change drivers from Metaweb including modification summaries, service bulletins, and engineering orders for aircraft documentation",
@@ -116,15 +117,26 @@
   "education": [
     {
       "institution": "Singhania University",
-      "studyType": "Bachelor of Science",
-      "area": "Aerospace Maintenance Engineering (AME)",
+      "studyType": "Bachelor of Science in Aircraft Maintenance Engineering (BscAME)",
+      "area": "Engineering",
       "endDate": "2013"
     },
     {
-      "institution": "IIAS, Kolkata",
-      "studyType": "AME Course",
-      "area": "Aerospace Maintenance Engineering",
+      "institution": "Indian Institute of Aeronautical Science, Kolkata",
+      "studyType": "Diploma of Education",
+      "area": "Aircraft Maintenance Engineering (AME)",
+      "startDate": "2007",
       "endDate": "2010"
+    },
+    {
+      "institution": "Katwa Bharati Bhavan",
+      "startDate": "2006",
+      "endDate": "2007"
+    },
+    {
+      "institution": "Katwa kashi Ram Das Institution",
+      "startDate": "2005",
+      "endDate": "2006"
     }
   ],
   "skills": [
@@ -252,6 +264,21 @@
     }
   ],
   "certificates": [
+    {
+      "name": "How Git Works"
+    },
+    {
+      "name": "Applied AI Foundations"
+    },
+    {
+      "name": "AI-Powered Documentation Mastery with Claude"
+    },
+    {
+      "name": "How to CSS"
+    },
+    {
+      "name": "Certificate of completion: Claude 101"
+    },
     {
       "name": "PSM I (Professional Scrum Master I)",
       "issuer": "scrum.org"
