@@ -239,12 +239,21 @@
   if (Array.isArray(resume.blog) && resume.blog.length) {
     const list = $('blog-list');
     resume.blog.forEach((post) => {
+      const isPlaceholder = post.placeholder || !post.url;
       const cardChildren = [
         el('h3', { text: post.title }),
         ...(post.summary ? [el('p', { text: post.summary })] : []),
-        el('span', { className: 'blog-meta', text: 'Coming soon' }),
       ];
-      list.appendChild(el('article', { className: 'blog-card' }, cardChildren));
+      if (post.url) {
+        cardChildren.push(el('a', {
+          className: 'blog-read-link',
+          text: 'Read article →',
+          attrs: { href: post.url, target: '_blank', rel: 'noopener noreferrer' },
+        }));
+      } else {
+        cardChildren.push(el('span', { className: 'blog-meta is-coming-soon', text: 'Coming soon' }));
+      }
+      list.appendChild(el('article', { className: isPlaceholder ? 'blog-card placeholder' : 'blog-card' }, cardChildren));
     });
     list.className = 'blog-grid';
     show($('blog'));
