@@ -164,20 +164,90 @@
   // ---------- Projects ----------
   if (Array.isArray(resume.projects) && resume.projects.length) {
     const list = $('project-list');
+
     resume.projects.forEach((project) => {
-      const children = [el('h3', { text: project.name })];
-      if (project.description) children.push(el('p', { text: project.description }));
+      const cardChildren = [];
+
+      // Card top row: title + optional featured badge
+      const topRow = el('div', { className: 'project-card-top' }, [
+        el('h3', { text: project.name }),
+        ...(project.featured ? [el('span', { className: 'badge-featured', text: 'Featured' })] : []),
+      ]);
+      cardChildren.push(topRow);
+
+      if (project.description) cardChildren.push(el('p', { className: 'project-desc', text: project.description }));
+
+      // Keywords / tags
+      if (Array.isArray(project.keywords) && project.keywords.length) {
+        const tagList = el('ul', { className: 'tag-list project-tags' });
+        project.keywords.forEach((kw) => tagList.appendChild(el('li', { className: 'tag', text: kw })));
+        cardChildren.push(tagList);
+      }
+
+      // Subprojects
+      if (Array.isArray(project.subprojects) && project.subprojects.length) {
+        const subSection = el('div', { className: 'subprojects' });
+        subSection.appendChild(el('h4', { text: 'Modules' }));
+
+        project.subprojects.forEach((sub) => {
+          const subItemClass = sub.placeholder ? 'subproject-item placeholder' : 'subproject-item';
+          const textBlock = el('div', { className: 'subproject-text' }, [
+            el('h5', { text: sub.name }),
+            ...(sub.description ? [el('p', { text: sub.description })] : []),
+          ]);
+          const subChildren = [textBlock];
+          if (sub.url) {
+            subChildren.push(el('a', {
+              className: 'project-link',
+              text: 'View PoC ↗',
+              attrs: { href: sub.url, target: '_blank', rel: 'noopener noreferrer' },
+            }));
+          }
+          subSection.appendChild(el('div', { className: subItemClass }, subChildren));
+        });
+
+        cardChildren.push(subSection);
+      }
+
+      // Legacy: highlights list
       if (Array.isArray(project.highlights) && project.highlights.length) {
         const ul = el('ul', { className: 'highlights' });
         project.highlights.forEach((h) => ul.appendChild(el('li', { text: h })));
-        children.push(ul);
+        cardChildren.push(ul);
       }
-      if (project.url) {
-        children.push(el('a', { text: 'View project', attrs: { href: project.url, target: '_blank', rel: 'noopener noreferrer' } }));
+
+      // Legacy: top-level url
+      if (project.url && !Array.isArray(project.subprojects)) {
+        cardChildren.push(el('a', { className: 'project-link', text: 'View project ↗', attrs: { href: project.url, target: '_blank', rel: 'noopener noreferrer' } }));
       }
-      list.appendChild(el('article', { className: 'entry' }, children));
+
+      list.appendChild(el('article', { className: project.featured ? 'project-card featured' : 'project-card' }, cardChildren));
     });
+
+    // Placeholder card for upcoming projects
+    const placeholderCard = el('article', { className: 'project-card placeholder-card' }, [
+      el('h3', { text: 'More Projects' }),
+      el('p', { text: 'Coming soon' }),
+    ]);
+    list.appendChild(placeholderCard);
+
+    list.className = 'project-grid';
     show($('projects'));
+  }
+
+  // ---------- Blog Articles ----------
+  if (Array.isArray(resume.blog) && resume.blog.length) {
+    const list = $('blog-list');
+    resume.blog.forEach((post) => {
+      const cardChildren = [
+        el('h3', { text: post.title }),
+        ...(post.summary ? [el('p', { text: post.summary })] : []),
+        el('span', { className: 'blog-meta', text: 'Coming soon' }),
+      ];
+      list.appendChild(el('article', { className: 'blog-card' }, cardChildren));
+    });
+    list.className = 'blog-grid';
+    show($('blog'));
   }
 
   // ---------- Certificates ----------
